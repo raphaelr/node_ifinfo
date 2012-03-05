@@ -1,9 +1,9 @@
 {
-	"name": "ipinfo",
+	"name": "ifinfo",
 	"version": "0.1.0",
 	"author": "Raphael Robatsch <raphaelr@f-m.fm>",
-	"description": "More informations about the local network adapters",
-	"main": "./lib/ipinfo",
+	"description": "More information about the local network interfaces",
+	"main": "./lib/ifinfo",
 	"keywords": ["network", "system"],
 	
 	"dependencies": {

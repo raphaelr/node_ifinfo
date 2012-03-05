@@ -1,11 +1,11 @@
 var expect = require('expect.js');
-var ipinfo = require('../');
+var ifinfo = require('../');
 
 describe('interfaces', function() {
 	var interfaces;
 	
 	beforeEach(function() {
-		interfaces = ipinfo.interfaces();
+		interfaces = ifinfo.interfaces();
 	});
 	
 	it('should return an object', function() {

@@ -1,7 +1,7 @@
-ipinfo
+ifinfo
 ======
-More informations about the local network interfaces
-----------------------------------------------------
+More information about the local network interfaces
+---------------------------------------------------
 
 This library provides access to more detailed network information about
 the interface configuration of the system. It attempts to provide:
@@ -15,12 +15,12 @@ the interface configuration of the system. It attempts to provide:
 
 Supported platforms
 ===================
-Ideally, ipinfo will support all major platforms in the future. Right now,
+Ideally, ifinfo will support all major platforms in the future. Right now,
 it's in the early development stage. The roadmap for platform support is:
 
 * Windows >= Vista
-* Windows < Vista
 * Linux
+* Windows < Vista
 * BSD, if the Linux support doesn't magically already cut it
 
 OSX support won't be implemented by me, due to lack of software, hardware
